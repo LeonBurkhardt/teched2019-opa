@@ -15,7 +15,7 @@ module.exports = function (config) {
           args: ["--headless", "--disable-gpu", "--disable-dev-shm-usage"]
         },
         config: {
-          hostname: "localhost",
+          hostname: "selenium",
           port: 4444
         },
         browserName: "chrome",
